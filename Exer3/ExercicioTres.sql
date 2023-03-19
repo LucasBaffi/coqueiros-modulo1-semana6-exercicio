@@ -5,3 +5,6 @@ Id INT NOT NULL PRIMARY KEY,
 Idade INT NOT NULL UNIQUE,
 Cidade Varchar(MAX) NULL
 )
+
+ALTER TABLE DBO.Lucas
+	ADD UF Char(2) NULL, TelefoneNumber INT NOT NULL;
